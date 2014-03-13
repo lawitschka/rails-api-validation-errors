@@ -81,7 +81,7 @@ describe ActiveModel::Errors do
       end
 
       it 'returns passed options as meta' do
-        error_hash = errors.generate_message :attribute, :invalid, { count: 2 }
+        error_hash = errors.generate_message :attribute, :invalid, { :count => 2 }
 
         expect(error_hash[:meta]).to have_key :count
         expect(error_hash[:meta][:count]).to eq 2

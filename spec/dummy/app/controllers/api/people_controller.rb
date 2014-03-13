@@ -5,9 +5,9 @@ class Api::PeopleController < ApplicationController
     @person = Person.new(person_params)
 
     if @person.valid?
-      render json: @person
+      render :json => @person
     else
-      render json: { errors: @person.errors }
+      render :json => { :errors => @person.errors }
     end
   end
 

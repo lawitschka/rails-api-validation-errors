@@ -24,7 +24,7 @@ module ActiveModel
       else
         type = options.delete(:message) if options[:message].is_a?(Symbol)
 
-        { message: type, meta: options }
+        { :message => type, :meta => options }
       end
     end
 

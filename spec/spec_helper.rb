@@ -1,4 +1,5 @@
 require 'bundler/setup'
+require 'rr'
 
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"

@@ -2,6 +2,14 @@ require 'spec_helper'
 
 describe ActiveModel::Errors do
 
+  before :each do
+    ActiveModel::Errors.enable_translations
+  end
+
+  after :each do
+    ActiveModel::Errors.enable_translations
+  end
+
   it { expect(ActiveModel::Errors).to respond_to :enable_translations }
   it { expect(ActiveModel::Errors).to respond_to :disable_translations }
 

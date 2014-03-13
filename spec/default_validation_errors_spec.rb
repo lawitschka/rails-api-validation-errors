@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'Validation' do
+describe 'Default validation errors' do
 
   before :each do
     ActiveModel::Errors.enable_translations

@@ -1,0 +1,2 @@
+module RailsApiValidationErrors
+end

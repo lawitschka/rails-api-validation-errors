@@ -7,6 +7,7 @@ module Rails::API::HashValidationErrors
   def use_hash_validation_errors(&block)
     ActiveModel::Errors.disable_translations
     yield
+  ensure
     ActiveModel::Errors.enable_translations
   end
 

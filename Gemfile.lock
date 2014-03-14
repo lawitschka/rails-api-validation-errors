@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_api_validation_errors (0.0.1)
+    rails_api_validation_errors (1.0.0)
       rails (~> 4.0.3)
 
 GEM

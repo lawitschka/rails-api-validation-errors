@@ -119,7 +119,7 @@ PLATFORMS
 DEPENDENCIES
   coveralls (~> 0)
   rails_api_validation_errors!
-  rr (~> 1.1, >= 1.1.2)
-  rspec-rails (~> 2.14, >= 2.14.0)
+  rr (~> 1.1)
+  rspec-rails (~> 2.14)
   simplecov (~> 0)
   sqlite3 (~> 0)

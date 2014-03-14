@@ -7,6 +7,7 @@ require "rails_api_validation_errors/version"
 Gem::Specification.new do |s|
   s.name        = "rails_api_validation_errors"
   s.version     = RailsApiValidationErrors::VERSION
+  s.licenses    = ['MIT']
   s.authors     = ["Moritz Lawitschka"]
   s.email       = ["me@moritzlawitschka.de"]
   s.homepage    = "https://github.com/lawitschka/rails-api-validation-errors"
@@ -15,11 +16,11 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 4.0.3"
+  s.add_dependency "rails", "~> 4.0", ">= 4.0.0"
 
-  s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rspec-rails", "~> 2.14.0"
-  s.add_development_dependency "rr",          "~> 1.1.2"
-  s.add_development_dependency "simplecov"
-  s.add_development_dependency "coveralls"
+  s.add_development_dependency "sqlite3",     "~> 0"
+  s.add_development_dependency "rspec-rails", "~> 2.14", ">= 2.14.0"
+  s.add_development_dependency "rr",          "~> 1.1",  ">= 1.1.2"
+  s.add_development_dependency "simplecov",   "~> 0"
+  s.add_development_dependency "coveralls",   "~> 0"
 end

@@ -119,4 +119,5 @@ DEPENDENCIES
   rails_api_validation_errors!
   rr (~> 1.1.2)
   rspec-rails (~> 2.14.0)
+  simplecov
   sqlite3

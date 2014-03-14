@@ -30,7 +30,7 @@ and error including the error key and meta information.
 
 ```ruby
 class API::BaseController < ApplicationController
-  include Rails::API::HasValidationErrors
+  include Rails::API::HashValidationErrors
 end
 ```
 

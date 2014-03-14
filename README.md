@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/lawitschka/rails-api-validation-errors.png?branch=master)](https://travis-ci.org/lawitschka/rails-api-validation-errors)
-[![Coverage Status](https://coveralls.io/repos/lawitschka/rails-api-validation-errors/badge.png)](https://coveralls.io/r/lawitschka/rails-api-validation-errors)
-[![Code Climate](https://codeclimate.com/github/lawitschka/rails-api-validation-errors.png)](https://codeclimate.com/github/lawitschka/rails-api-validation-errors)
+[![Build Status](http://img.shields.io/travis/lawitschka/rails-api-validation-errors.svg)](https://travis-ci.org/lawitschka/rails-api-validation-errors)
+[![Coverage Status](http://img.shields.io/coveralls/lawitschka/rails-api-validation-errors.svg)](https://coveralls.io/r/lawitschka/rails-api-validation-errors)
+[![Code Climate](http://img.shields.io/codeclimate/github/lawitschka/rails-api-validation-errors.svg)](https://codeclimate.com/github/lawitschka/rails-api-validation-errors)
 
 # Rails API validation errors
 

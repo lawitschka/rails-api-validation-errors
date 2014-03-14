@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/lawitschka/rails-api-validation-errors.png?branch=master)](https://travis-ci.org/lawitschka/rails-api-validation-errors)
+[![Coverage Status](https://coveralls.io/repos/lawitschka/rails-api-validation-errors/badge.png)](https://coveralls.io/r/lawitschka/rails-api-validation-errors)
 [![Code Climate](https://codeclimate.com/github/lawitschka/rails-api-validation-errors.png)](https://codeclimate.com/github/lawitschka/rails-api-validation-errors)
 
 # Rails API validation errors

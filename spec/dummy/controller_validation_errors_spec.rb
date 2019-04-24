@@ -8,7 +8,7 @@ describe Api::PeopleController, type: :controller do
   end
 
   it 'returns an errors hash' do
-    post :create, person: { name: '' }
+    post :create, params: { person: { name: '' } }
 
     expect(response).to be_successful
 

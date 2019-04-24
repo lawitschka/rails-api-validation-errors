@@ -15,7 +15,7 @@ describe ActiveModel::Errors do
 
   it 'translates messages per default' do
     option = ActiveModel::Errors.class_variable_get '@@translate_message'
-    expect(option).to be_true
+    expect(option).to be_truthy
   end
 
   describe '.enable_translations' do
@@ -23,7 +23,7 @@ describe ActiveModel::Errors do
       ActiveModel::Errors.class_variable_set '@@translate_message', false
       ActiveModel::Errors.enable_translations
       option = ActiveModel::Errors.class_variable_get '@@translate_message'
-      expect(option).to be_true
+      expect(option).to be_truthy
     end
   end
 
@@ -31,7 +31,7 @@ describe ActiveModel::Errors do
     it 'sets message translation option to false' do
       ActiveModel::Errors.disable_translations
       option = ActiveModel::Errors.class_variable_get '@@translate_message'
-      expect(option).to be_false
+      expect(option).to be_falsy
     end
   end
 
@@ -41,7 +41,7 @@ describe ActiveModel::Errors do
     context "when translations are turned on" do
       it 'uses the original method' do
         ActiveModel::Errors.enable_translations
-        stub(errors)._generate_message
+        RR.stub(errors)._generate_message
 
         errors.generate_message(:attribute)
 
@@ -57,7 +57,7 @@ describe ActiveModel::Errors do
       end
 
       it 'does not use the original method' do
-        stub(errors)._generate_message
+        RR.stub(errors)._generate_message
 
         errors.generate_message(:attribute)
 
